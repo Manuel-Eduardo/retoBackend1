@@ -3,8 +3,8 @@ var fk = require('faker');
 var ld = require('lodash');
 var app = express();
 
-//Mi funcion 
-
+ 
+//funcion para generar usuarios
 var generarUsuario = function(){
 
 	var usuario = {
@@ -22,6 +22,7 @@ var generarUsuario = function(){
 	return usuario;
 }
 
+//funcion para generar posts
 var generarPost = function(){
 
 	var post = {
